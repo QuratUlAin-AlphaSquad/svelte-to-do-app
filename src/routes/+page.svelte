@@ -142,7 +142,7 @@
                                     <div class="flex flex-row justify-between gap-4">
 
                                           
-                                    <p class="text-white rounded-s w-[512px] line-through">{item.text}</p>
+                                    <p class="text-white rounded-s w-[512px]">{item.text}</p>
                                     <!-- del btn -->
                                     <button on:click={() => removeTodo(index)}
                                           ><svg
